@@ -98,7 +98,7 @@ figure {
     width: 18rem;
 }
 
-figure > img {
+a > img {
     width: 100%;
     min-height: 100%;
 }
