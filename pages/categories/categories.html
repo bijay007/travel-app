@@ -11,11 +11,11 @@
     <main>
         <h1>Cosas para hacer en Nepal</h1>
         <article>
-            <p>Si te gusta hacer aventuras y perderse en la naturaleza en su estado puro, Nepal es el número 1 para esto. Lleno de montañas, bosques y 
-                rutas para senderismo y deporte de alto adrenalina, Nepal tiene cosas para todo tipo de gente. Adémas de la naturaleza, Nepal también 
+            <p>Si te gusta hacer aventuras y perderse en la naturaleza en su estado puro, Nepal es el número 1 para esto. Lleno de montañas, bosques y
+                rutas para senderismo y deporte de alto adrenalina, Nepal tiene cosas para todo tipo de gente. Adémas de la naturaleza, Nepal también
                 tiene una abundancia de culturas, sitios historicós y lleno de gente amables.
-                Ahí la gente vive un modo de vida completamente opuesto al que llevamos en Occidente. La sonrisa es una habitual más del paisaje, 
-                así como la generosidad acompaña a todos y cada uno de los habitantes de Nepal. 
+                Ahí la gente vive un modo de vida completamente opuesto al que llevamos en Occidente. La sonrisa es una habitual más del paisaje,
+                así como la generosidad acompaña a todos y cada uno de los habitantes de Nepal.
             </p>
             <section>
                 <h2>Las categorías principales son: </h2>
@@ -33,4 +33,17 @@
         </article>
     </main>
 </body>
+<script>
+    (function animateArrow() {
+        var arrowParent = document.querySelectorAll("ol")[0];
+        arrowParent.addEventListener("mouseover", function(e) {
+            e.target.classList.add("animated_list");
+            e.target.classList.remove("static_list");
+        }, { useCapture: true });
+        arrowParent.addEventListener("mouseout", function(e) {
+            e.target.classList.remove("animated_list");
+            e.target.classList.add("static_list");
+        }, { useCapture: true });
+    })();
+</script>
 </html>

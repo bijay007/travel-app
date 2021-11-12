@@ -27,11 +27,6 @@ li {
     padding: 0.5rem;
     font-size: 20px;
 }
-li:hover {
-    transition: transform 0.5s;
-    transform: scale(1.05);
-    font-weight: 600;
-}
 a {
     text-decoration: none;
     color: #000;
@@ -41,4 +36,13 @@ img {
     padding-left: 0.5rem;
     height: 2rem;
     width: auto;
+}
+.animated_list {
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    font-weight: 600;
+}
+.static_list {
+    transition-property: none;
+    font-weight: 500;
 }
