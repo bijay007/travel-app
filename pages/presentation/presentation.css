@@ -11,12 +11,34 @@ section {
     padding: 1rem 5rem;
 }
 
-.main__image {
-    height: 30%;
-    width: 40%;
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.25rem;
+    padding: 0.25rem;
+
+}
+
+picture > img {
+    width: 32rem;
+    height: 24rem;
+}
+
+figcaption {
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .section__image {
-    height: 22rem;
-    width: 32rem;
+    height: 24rem;
+    width: 34rem;
+}
+
+@media screen and (max-width: 600px) {
+    picture > img {
+        max-width: 75vw;
+    }
 }
