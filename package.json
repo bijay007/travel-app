@@ -1,7 +1,7 @@
 {
-  "name": "travel-app",
+  "name": "person-app",
   "version": "1.0.0",
-  "description": "simple travel app",
+  "description": "simple person app",
   "main": "index.html",
   "scripts": {
     "parcel:dev": "parcel index.html",
