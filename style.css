@@ -54,7 +54,11 @@ header {
     display: flex;
     flex: 2;
     justify-content: center;
-    background: url('assets/images/mountains.jpg');
+    color: #fff;
+    mix-blend-mode: difference;
+    font: 800 5vmin/5vh cookie, cursive;
+    text-align: center;
+    background: url('assets/images/mountains.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
 /*     animation: clouds_flow 60s linear infinite; */
