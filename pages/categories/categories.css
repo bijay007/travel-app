@@ -22,27 +22,26 @@ ol {
     list-style-type: upper-roman;
 }
 li {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
+    display: flex column;
+    list-style-type: disclosure-closed;
+    padding: 0.25rem;
     font-size: 20px;
 }
 a {
-    text-decoration: none;
-    color: #000;
+    display: block;
+    height: 8rem;
     cursor: pointer;
+}
+.cat__details--pointer:hover {
+    transition: all 1s ease;
+    transform: scale(1.05);
+    transform: translateX(5px);
+}
+h5 {
+    margin: 0.2rem;
 }
 img {
     padding-left: 0.5rem;
-    height: 2rem;
-    width: auto;
-}
-.animated_list {
-    transition: transform 0.5s;
-    transform: scale(1.05);
-    font-weight: 600;
-}
-.static_list {
-    transition-property: none;
-    font-weight: 500;
+    height: 100%;
+    width: 7rem;
 }

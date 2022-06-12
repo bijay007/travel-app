@@ -17,29 +17,22 @@
                 <h2>Major events in the life of PN Shah: </h2>
                 <ol>
                     <li>
-                        <a href="details/ascension.html" aria-label="See more about ascension">Ascension to throne</a>
-                        <img src="../../assets/icons/arrow-right.png" role="presentation">
+                        <h5 aria-label="See more about ascension">Ascension to throne</h5>
+                        <a class="cat__details" href="details/ascension.html">
+                            <img src="../../assets/images/cat_ascension_resized.jpg" alt="ascension">
+                            <img class="cat__details--pointer" src="../../assets/icons/arrow-right.png" role="presentation">
+                        </a>
                     </li>
                     <li>
-                        <a href="details/war.html" aria-label="See more about war">War with East India Company</a>
-                        <img src="../../assets/icons/arrow-right.png" role="presentation">
+                        <h5 aria-label="See more about war">War with East India Company</h5>
+                        <a class="cat__details" href="details/war.html">
+                            <img src="../../assets/images/pn_shah_war_cropped.jpg" alt="war">
+                            <img class="cat__details--pointer" src="../../assets/icons/arrow-right.png" role="presentation">
+                        </a>
                     </li>
                 </ol>
             </section>
         </article>
     </main>
 </body>
-<script>
-    (function animateArrow() {
-        var arrowParent = document.querySelectorAll("ol")[0];
-        arrowParent.addEventListener("mouseover", function(e) {
-            e.target.classList.add("animated_list");
-            e.target.classList.remove("static_list");
-        }, { useCapture: true });
-        arrowParent.addEventListener("mouseout", function(e) {
-            e.target.classList.remove("animated_list");
-            e.target.classList.add("static_list");
-        }, { useCapture: true });
-    })();
-</script>
 </html>

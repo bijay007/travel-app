@@ -18,3 +18,25 @@ h1 {
 p {
     text-align: justify;
 }
+.ascension__images {
+    display: flex;
+    justify-content: center;
+}
+.ascension__images > img {
+    max-height: 30rem;
+}
+figure {
+    text-align: center;
+    margin: 0.5rem;
+}
+picture > img {
+    height: 15rem;
+    max-width: 100%;
+}
+img:last-of-type {
+    max-width: 50vw;
+}
+.ascension__iframe {
+    display: flex;
+    justify-content: center;
+}

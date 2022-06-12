@@ -18,3 +18,35 @@ h1 {
 p {
     text-align: justify;
 }
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
+picture > img {
+    width: 32rem;
+    height: 24rem;
+}
+figcaption {
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.war__images, .war__iframe {
+    display: flex;
+    justify-content: center;
+}
+
+/* media queries */
+
+@media screen and (max-width: 640px) {
+    picture > img {
+        max-width: 75vw;
+    }
+    h1 {
+        line-height: 2rem;
+    }
+}
